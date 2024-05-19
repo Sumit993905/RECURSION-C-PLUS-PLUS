@@ -14,6 +14,12 @@ int fibonacci(int n){
     return ans;
 }
 
+void print(int n){
+    for(int i = 0 ; i<n ; i++){
+        cout<<fibonacci(i)<<" ";
+    }
+}
+
 int main(){
 
     int n;
@@ -22,6 +28,9 @@ int main(){
 
     // call the function
     cout<<fibonacci(n);
+
+    //print the fibonacci series
+    print(n);
 
     return 0;
 }
