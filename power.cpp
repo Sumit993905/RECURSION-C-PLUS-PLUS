@@ -21,7 +21,7 @@ int main(){
 
     int ans = power(n);
 
-    cout<<ans<<endl;
+    cout<<"Power with 2 : "<<ans<<endl;
 
 
 
